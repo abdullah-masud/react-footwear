@@ -1,62 +1,62 @@
 [
     {
         "id": "1",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/1.png"
+        "name": "Converse one star sneakers",
+        "price": 64,
+        "img": "https://media.gq.com/photos/61ae8b757439b36516f97481/master/w_300,c_limit/Converse-one-star-sneakers.jpg"
     },
     {
         "id": "2",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/2.png"
+        "name": "Converse Chuck 70 sneakers",
+        "price": 48,
+        "img": "https://media.gq.com/photos/6101bd633e2871dd07ed5dcd/master/w_300,c_limit/Converse-Chuck-70-hi-sneakers.jpg"
     },
     {
         "id": "3",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/3.png"
+        "name": "Converse CONS Louie sneakers",
+        "price": 40,
+        "img": "https://media.gq.com/photos/61ae8b755f5bc36144ea4eb3/master/w_300,c_limit/Converse-CONS-Louie-Lopez-pro-sneakers.jpg"
     },
     {
         "id": "4",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/4.png"
+        "name": "Adidas Rod Laver sneakers",
+        "price": 85,
+        "img": "https://media.gq.com/photos/61ae8b717439b36516f9747b/master/w_300,c_limit/Adidas-Rod-Laver-sneakers.jpg"
     },
     {
         "id": "5",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/5.png"
+        "name": "Adidas Samba classic sneakers",
+        "price": 100,
+        "img": "https://media.gq.com/photos/6101a6cff1b49ea666d99112/master/w_300,c_limit/Adidas-Samba-classic-sneakers.jpg"
     },
     {
         "id": "6",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/6.png"
+        "name": "Adidas Originals Stan sneakers",
+        "price": 95,
+        "img": "https://media.gq.com/photos/6101a6cee01c89dcdd8730d7/master/w_300,c_limit/Adidas-Originals-Stan-Smith-sneakers.jpg"
     },
     {
         "id": "7",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/7.png"
+        "name": "Converse Pro leather sneakers",
+        "price": 50,
+        "img": "https://media.gq.com/photos/6101bd64bd0056104f647354/master/w_300,c_limit/Converse-Pro-leather-parquet-court-sneakers.jpg"
     },
     {
         "id": "8",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/8.png"
+        "name": "Reebok Zig Kinetica shoes",
+        "price": 120,
+        "img": "https://media.gq.com/photos/61ae8b7f5f5bc36144ea4ec1/master/w_300,c_limit/Reebok-Zig-Kinetica-II-shoes.jpg"
     },
     {
         "id": "9",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/9.png"
+        "name": "Reebok Classic leather shoes",
+        "price": 80,
+        "img": "https://media.gq.com/photos/61ae8b7e06c1f085f5bc2842/master/w_300,c_limit/Reebok-Classic-leather-legacy-shoes.jpg"
     },
     {
         "id": "10",
-        "name": "ULTRABOOST 22 SHOES",
-        "price": 420,
-        "img": "src/images/10.png"
+        "name": "New Balance 327 sneakers",
+        "price": 82,
+        "img": "https://media.gq.com/photos/61ae8b797439b36516f9748d/master/w_300,c_limit/New-Balance-327-sneakers.jpg"
     }
 ]

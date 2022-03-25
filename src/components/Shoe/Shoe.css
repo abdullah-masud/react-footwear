@@ -1,0 +1,8 @@
+.addToCartBtn {
+    background-color: #0b6b8b;
+    border: none;
+}
+
+.addToCartBtn:hover {
+    background-color: #13252c;
+}

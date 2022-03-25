@@ -1,0 +1,26 @@
+import React from 'react';
+import { Card, Button } from 'react-bootstrap';
+import './Shoe.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+
+const Shoe = (props) => {
+    const { name, price, img } = props.shoe;
+    return (
+        <div>
+            <Card className='shadow p-3 mb-5 bg-body rounded border-0' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={img} />
+                <Card.Body>
+                    <h4>{name}</h4>
+                    <h6 className='my-4'>Price: ${price}</h6>
+                    <Button variant="primary" className='addToCartBtn'>
+                        Add to Cart
+                        <FontAwesomeIcon className='ms-2' icon={faShoppingCart}></FontAwesomeIcon>
+                    </Button>
+                </Card.Body>
+            </Card>
+        </div>
+    );
+};
+
+export default Shoe;
