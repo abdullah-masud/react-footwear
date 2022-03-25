@@ -1,19 +1,59 @@
+.shop-container {
+    background-color: #c8e3e6;
+}
+
 .shoe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-items: center;
-    background-color: #d9afd9;
-    background-image: linear-gradient(0deg,
-            #d9afd9 0%,
-            #97d9e1 62%,
-            #ffffff 100%);
+
+
 }
 
 .cart-container {
-    background-color: #d9afd9;
-    background-image: linear-gradient(0deg,
-            #d9afd9 0%,
-            #97d9e1 62%,
-            #ffffff 100%);
+    background-color: #c8e3e6;
+}
+
+
+.choose-one-btn {
+    background-color: #0b6b8b;
+    border: none;
+    display: none;
+}
+
+.choose-one-btn:hover {
+    background-color: #13252c;
+}
+
+.choose-again-btn {
+    background-color: #0b6b8b;
+    border: none;
+    display: none;
+
+}
+
+.choose-again-btn:hover {
+    background-color: #13252c;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 1200px) {
+    .shoe-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cart-buttons {
+        flex-direction: column;
+    }
+
+    .cart-buttons Button:first-child {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .shoe-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
