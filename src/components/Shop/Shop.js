@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
-import { handleChooseOne } from '../../Calculations/Calculations';
 
 import Cart from '../Cart/Cart';
 import Shoe from '../Shoe/Shoe';
@@ -26,6 +25,7 @@ const Shop = () => {
         document.getElementById("choose-again-btn").style.display = "block";
     }
 
+
     const handleChooseOne = (cartDetails) => {
         // console.log(cartDetails)
         const cartLength = cartDetails.length
@@ -37,9 +37,8 @@ const Shop = () => {
                 setRandomShoe(cartDetail)
             }
         }
-
+        return randomShoe
     };
-
 
 
     return (
@@ -64,7 +63,7 @@ const Shop = () => {
                             shoeDetails.map(shoeDetail => <Cart
                                 key={shoeDetail.id}
                                 shoeDetail={shoeDetail}
-                                randomShoe={randomShoe}
+                                handleChooseOne={handleChooseOne}
                             ></Cart>)
 
                         }
