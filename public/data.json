@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/1.png"
+    },
+    {
+        "id": "2",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/2.png"
+    },
+    {
+        "id": "3",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/3.png"
+    },
+    {
+        "id": "4",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/4.png"
+    },
+    {
+        "id": "5",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/5.png"
+    },
+    {
+        "id": "6",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/6.png"
+    },
+    {
+        "id": "7",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/7.png"
+    },
+    {
+        "id": "8",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/8.png"
+    },
+    {
+        "id": "9",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/9.png"
+    },
+    {
+        "id": "10",
+        "name": "ULTRABOOST 22 SHOES",
+        "price": 420,
+        "img": "src/images/10.png"
+    }
+]
