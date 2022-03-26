@@ -1,21 +1,21 @@
 [
     {
         "id": "1",
-        "name": "Converse one star sneakers",
-        "price": 64,
-        "img": "https://media.gq.com/photos/61ae8b757439b36516f97481/master/w_300,c_limit/Converse-one-star-sneakers.jpg"
-    },
-    {
-        "id": "2",
         "name": "Converse Chuck 70 sneakers",
         "price": 48,
         "img": "https://media.gq.com/photos/6101bd633e2871dd07ed5dcd/master/w_300,c_limit/Converse-Chuck-70-hi-sneakers.jpg"
     },
     {
-        "id": "3",
+        "id": "2",
         "name": "Converse CONS Louie sneakers",
         "price": 40,
         "img": "https://media.gq.com/photos/61ae8b755f5bc36144ea4eb3/master/w_300,c_limit/Converse-CONS-Louie-Lopez-pro-sneakers.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Converse one star sneakers",
+        "price": 64,
+        "img": "https://media.gq.com/photos/61ae8b757439b36516f97481/master/w_300,c_limit/Converse-one-star-sneakers.jpg"
     },
     {
         "id": "4",
@@ -58,5 +58,17 @@
         "name": "New Balance 327 sneakers",
         "price": 82,
         "img": "https://media.gq.com/photos/61ae8b797439b36516f9748d/master/w_300,c_limit/New-Balance-327-sneakers.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Yeezy QNTM 11 sneakers",
+        "price": 206,
+        "img": "https://media.gq.com/photos/61ae8b855f5bc36144ea4ec7/master/w_300,c_limit/Yeezy-QNTM-sneakers.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Gucci Ace 102 sneakers",
+        "price": 102,
+        "img": "https://media.gq.com/photos/61ae8b767439b36516f97483/master/w_300,c_limit/Gucci-Ace-sneakers.jpg"
     }
 ]

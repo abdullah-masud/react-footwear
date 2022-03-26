@@ -10,7 +10,7 @@ const Cart = (props) => {
                 <img width={120} src={img} alt="" />
                 <div>
                     <h5 className='ps-3'>{name}</h5>
-                    <h5 className='ps-3'>Price: ${price}</h5>
+                    <h6 className='ps-3'>Price: ${price}</h6>
                 </div>
             </div>
         </div>

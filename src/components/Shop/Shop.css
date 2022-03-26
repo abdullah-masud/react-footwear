@@ -14,9 +14,6 @@
     top: 0;
 }
 
-
-
-
 .choose-one-btn {
     background-color: #0b6b8b;
     border: none;
@@ -71,5 +68,14 @@
 
     .shoe-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cart-container {
+        display: none;
+    }
+
+    .all-shoes-container {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

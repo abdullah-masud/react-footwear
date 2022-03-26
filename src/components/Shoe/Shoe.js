@@ -14,7 +14,7 @@ const Shoe = (props) => {
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <h4>{name}</h4>
-                    <h6 className='my-4'>Price: ${price}</h6>
+                    <h5 className='my-4'>Price: ${price}</h5>
                     <Button onClick={() => handleAddToCartBtn(props.shoe)} variant="primary" className='addToCartBtn'>
                         Add to Cart
                         <FontAwesomeIcon className='ms-2' icon={faShoppingCart}></FontAwesomeIcon>

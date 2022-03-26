@@ -16,26 +16,22 @@ const Shop = () => {
     }, [])
 
     const handleAddToCartBtn = (shoe) => {
-        // console.log(shoe)
-        // console.log(shoeDetails)
         let newShoesDetails = [...shoeDetails, shoe];
-
-        // console.log(newShoesDetails.length)
-
 
         const emptyArray = [];
         // console.log(newShoesDetails)
-
         for (const newShoeDetail of newShoesDetails) {
             emptyArray.push(parseInt(newShoeDetail.id))
-
         }
+
+        // console.log(emptyArray)
         if (newShoesDetails.length <= 4) {
             setShoeDetails(newShoesDetails)
         }
 
         document.getElementById("choose-one-btn").style.display = "block";
         document.getElementById("choose-again-btn").style.display = "block";
+        document.getElementById("cart-container").style.display = "block";
     }
 
 
@@ -56,16 +52,13 @@ const Shop = () => {
         setShoeDetails([])
         document.getElementById("choose-one-btn").style.display = "none";
         document.getElementById("choose-again-btn").style.display = "none";
+        document.getElementById("cart-container").style.display = "none";
     }
-
-
-
-
 
     return (
         <div>
-            <Row>
-                <Col className='text-center px-0 shop-container' sm={9}>
+            <Row className='all-shoes-container'>
+                <Col className='mt-1 text-center px-0 shop-container' sm={9}>
                     <h3 className='py-3'>All Shoes</h3>
                     <div className='shoe-container'>
                         {
@@ -77,9 +70,9 @@ const Shop = () => {
                         }
                     </div>
                 </Col>
-                <Col className='border-left-2  cart-container' sm={3}>
+                <Col id='cart-container' className='mt-1 cart-container' sm={3}>
                     <div className='details'>
-                        <h4 className='py-3 text-center'>Cart Details</h4>
+                        <h3 className='py-3 text-center'>Cart Details</h3>
                         {
                             shoeDetails.map(shoeDetail => <Cart
                                 key={shoeDetail.id}
