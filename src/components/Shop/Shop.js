@@ -8,7 +8,6 @@ import './Shop.css'
 const Shop = () => {
     const [shoes, setShoes] = useState([]);
     const [shoeDetails, setShoeDetails] = useState([]);
-    const [randomShoe, setRandomShoe] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -21,24 +20,30 @@ const Shop = () => {
         if (newShoesDetails.length <= 4) {
             setShoeDetails(newShoesDetails)
         }
+
         document.getElementById("choose-one-btn").style.display = "block";
         document.getElementById("choose-again-btn").style.display = "block";
     }
 
 
     const handleChooseOne = (cartDetails) => {
-        // console.log(cartDetails)
-        const cartLength = cartDetails.length
-        const randomNum = Math.floor(Math.random() * cartLength) + 1;
+        const emptyArrayOfId = [];
+        let randomNum
         for (const cartDetail of cartDetails) {
-            // console.log(cartDetail.id)
+            emptyArrayOfId.push(parseInt(cartDetail.id));
+            randomNum = emptyArrayOfId[Math.floor(Math.random() * emptyArrayOfId.length)];
+            console.log(cartDetail.id)
             if (randomNum === parseInt(cartDetail.id)) {
                 // console.log("hello")
-                setRandomShoe(cartDetail)
+                setShoeDetails([cartDetail])
             }
         }
-        return randomShoe
+        // console.log(emptyArray);
     };
+
+    console.log(shoeDetails);
+
+
 
 
     return (
@@ -63,7 +68,6 @@ const Shop = () => {
                             shoeDetails.map(shoeDetail => <Cart
                                 key={shoeDetail.id}
                                 shoeDetail={shoeDetail}
-                                handleChooseOne={handleChooseOne}
                             ></Cart>)
 
                         }
