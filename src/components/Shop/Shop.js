@@ -33,13 +33,12 @@ const Shop = () => {
 
 
     const handleChooseOne = (cartDetails) => {
-        const emptyArrayOfId = [];
+        const arrayOfId = [];
         let randomNum
         for (const cartDetail of cartDetails) {
-            emptyArrayOfId.push(parseInt(cartDetail.id));
-            randomNum = emptyArrayOfId[Math.floor(Math.random() * emptyArrayOfId.length)];
+            arrayOfId.push(parseInt(cartDetail.id));
+            randomNum = arrayOfId[Math.floor(Math.random() * arrayOfId.length)];
             if (randomNum === parseInt(cartDetail.id)) {
-                // console.log("hello")
                 setShoeDetails([cartDetail])
             }
         }
@@ -49,7 +48,7 @@ const Shop = () => {
         setShoeDetails([])
         document.getElementById("choose-one-btn").style.display = "none";
         document.getElementById("choose-again-btn").style.display = "none";
-        document.getElementById("cart-container").style.display = "none";
+        // document.getElementById("cart-container").style.display = "none";
     }
 
     return (
