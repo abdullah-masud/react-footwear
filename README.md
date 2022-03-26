@@ -1,3 +1,3 @@
 # FOOTWEAR
 
-Website Link [FOOTWEAR](https://react-footwear.netlify.app/).
+Website Link [FOOTWEAR](https://react-footwear.netlify.app/)

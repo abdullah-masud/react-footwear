@@ -48,7 +48,6 @@ const Shop = () => {
         setShoeDetails([])
         document.getElementById("choose-one-btn").style.display = "none";
         document.getElementById("choose-again-btn").style.display = "none";
-        // document.getElementById("cart-container").style.display = "none";
     }
 
     return (
