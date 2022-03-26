@@ -77,9 +77,9 @@ const Shop = () => {
                         }
                     </div>
                 </Col>
-                <Col className='border border-3 cart-container' sm={3}>
+                <Col className='border-left-2  cart-container' sm={3}>
                     <div className='details'>
-                        <h4 className='py-3 text-center'>Cart</h4>
+                        <h4 className='py-3 text-center'>Cart Details</h4>
                         {
                             shoeDetails.map(shoeDetail => <Cart
                                 key={shoeDetail.id}

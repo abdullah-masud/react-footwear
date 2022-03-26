@@ -1,7 +1,10 @@
 @media only screen and (max-width: 1370px) {
+    body, html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .cart {
         flex-direction: column;
     }
 }
-
-@media only screen and (max-width: 900px) {}

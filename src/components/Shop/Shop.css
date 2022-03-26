@@ -1,14 +1,12 @@
-.shop-container {
-    background-color: #c8e3e6;
-}
-
 .shoe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     justify-items: center;
+}
 
-
+.cart-container {
+    border-left: 1px solid rgb(255, 255, 255);
 }
 
 .details {
@@ -17,9 +15,6 @@
 }
 
 
-.cart-container {
-    background-color: #c8e3e6;
-}
 
 
 .choose-one-btn {
@@ -69,6 +64,11 @@
 }
 
 @media only screen and (max-width: 900px) {
+    body, html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .shoe-container {
         grid-template-columns: repeat(1, 1fr);
     }
