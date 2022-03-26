@@ -2,7 +2,6 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    // console.log(props.shoeDetail)
     const { img, name, price } = props.shoeDetail
     return (
         <div>

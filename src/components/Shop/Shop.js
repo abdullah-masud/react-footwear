@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
-
 import Cart from '../Cart/Cart';
 import Shoe from '../Shoe/Shoe';
 import './Shop.css'
@@ -19,12 +18,10 @@ const Shop = () => {
         let newShoesDetails = [...shoeDetails, shoe];
 
         const emptyArray = [];
-        // console.log(newShoesDetails)
         for (const newShoeDetail of newShoesDetails) {
             emptyArray.push(parseInt(newShoeDetail.id))
         }
 
-        // console.log(emptyArray)
         if (newShoesDetails.length <= 4) {
             setShoeDetails(newShoesDetails)
         }
