@@ -11,6 +11,12 @@
 
 }
 
+.details {
+    position: sticky;
+    top: 0;
+}
+
+
 .cart-container {
     background-color: #c8e3e6;
 }
@@ -39,6 +45,11 @@
 
 /* Responsive Styles */
 @media only screen and (max-width: 1200px) {
+    body, html {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .shoe-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -49,6 +60,11 @@
 
     .cart-buttons Button:first-child {
         margin-bottom: 10px;
+    }
+
+    .cart-buttons Button:nth-child(2) {
+        margin-bottom: 20px;
+
     }
 }
 

@@ -16,7 +16,20 @@ const Shop = () => {
     }, [])
 
     const handleAddToCartBtn = (shoe) => {
+        // console.log(shoe)
+        // console.log(shoeDetails)
         let newShoesDetails = [...shoeDetails, shoe];
+
+        // console.log(newShoesDetails.length)
+
+
+        const emptyArray = [];
+        // console.log(newShoesDetails)
+
+        for (const newShoeDetail of newShoesDetails) {
+            emptyArray.push(parseInt(newShoeDetail.id))
+
+        }
         if (newShoesDetails.length <= 4) {
             setShoeDetails(newShoesDetails)
         }
@@ -32,16 +45,19 @@ const Shop = () => {
         for (const cartDetail of cartDetails) {
             emptyArrayOfId.push(parseInt(cartDetail.id));
             randomNum = emptyArrayOfId[Math.floor(Math.random() * emptyArrayOfId.length)];
-            console.log(cartDetail.id)
             if (randomNum === parseInt(cartDetail.id)) {
                 // console.log("hello")
                 setShoeDetails([cartDetail])
             }
         }
-        // console.log(emptyArray);
     };
 
-    console.log(shoeDetails);
+    const handleChooseAgain = () => {
+        setShoeDetails([])
+        document.getElementById("choose-one-btn").style.display = "none";
+        document.getElementById("choose-again-btn").style.display = "none";
+    }
+
 
 
 
@@ -75,7 +91,7 @@ const Shop = () => {
                             <Button onClick={() => handleChooseOne(shoeDetails)} variant="primary" id='choose-one-btn' className='choose-one-btn mx-auto'>
                                 Choose one
                             </Button>
-                            <Button variant="primary" id='choose-again-btn' className='choose-again-btn mx-auto'>
+                            <Button onClick={handleChooseAgain} variant="primary" id='choose-again-btn' className='choose-again-btn mx-auto'>
                                 Choose again
                             </Button>
                         </div>
